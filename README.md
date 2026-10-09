@@ -1,4 +1,4 @@
-# RISC-V-32BIT-CPU
+# RISC-V-RV32I-CPU
 
 RV32I RISC-V CPU written in Verilog for the Basys 3 (Artix-7). Single-cycle first, then a 5-stage pipeline.
 
@@ -6,8 +6,8 @@ RV32I RISC-V CPU written in Verilog for the Basys 3 (Artix-7). Single-cycle firs
 | Module | File | Status |
 |---|---|---|
 | Program counter | rtl/pc.v | Done |
-| Register file | rtl/reg_file.v | Verified (5 self-checking tests) |
-| ALU | rtl/ALU_file.v | Verified (8 self-checking tests) |
+| Register file | rtl/reg.v | Verified (5 self-checking tests) |
+| ALU | rtl/alu.v | Verified (8 self-checking tests) |
 | Immediate generator | | Not started |
 | Instruction memory | | Not started |
 | Data memory | | Not started |
